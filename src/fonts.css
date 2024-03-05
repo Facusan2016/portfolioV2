@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'GrozenMedical';
+  font-weight: 800;
+  src: local('GrozenMedical'), url(/fonts/GrozenMedical/GROZEN-MEDICAL-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'GrozenMedical';
+  font-weight: 600;
+  src: local('GrozenMedical'), url(/fonts/GrozenMedical/GROZEN-MEDICAL-SemiBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'GrozenMedical';
+  font-weight: 400;
+  src: local('GrozenMedical'), url(/fonts/GrozenMedical/GROZEN-MEDICAL-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'GrozenMedical';
+  font-weight: 200;
+  src: local('GrozenMedical'), url(/fonts/GrozenMedical/GROZEN-MEDICAL-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'GrozenMedical';
+  font-weight: 100;
+  src: local('GrozenMedical'), url(/fonts/GrozenMedical/GROZEN-MEDICAL-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Neue';
+  font-weight: 400;
+  src: local('Neue'), url(/fonts/NeueRegrade/Neue-Regrade-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Neue';
+  font-weight: 300;
+  src: local('Neue'), url(/fonts/NeueRegrade/Neue-Regrade-Light.otf) format('opentype');
+}
