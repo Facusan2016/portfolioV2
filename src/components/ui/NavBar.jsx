@@ -19,7 +19,7 @@ export const NavBar = () => {
         `w-screen ${openNavbar ? 'max-h-60 !border-opacity-100' : 'max-h-0 py-0'}
         shadow-2xl top-14 left-0 duration-1000 flex flex-col gap-3
         p-7 overflow-hidden transition-all font-neue uppercase text-base text-light-snd
-        font-light`}
+        font-light text-sm`}
       >
         <li><a>Home</a></li>
         <li><a>About</a></li>

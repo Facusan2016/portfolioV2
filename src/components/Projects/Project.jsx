@@ -18,7 +18,7 @@ export const Project = ({
         }
       }
       className={
-      `w-full max-h-50 relative
+      `w-full min-h-48 h-full relative
       flex flex-1 outline outline-light-pr outline-1
       outline-x-transparent rounded-xl
       bg-cover overflow-hidden`}
