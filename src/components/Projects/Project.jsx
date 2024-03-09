@@ -18,10 +18,10 @@ export const Project = ({
         }
       }
       className={
-      `w-full min-h-48 h-full relative
-      flex flex-1 outline outline-light-pr outline-1
+      `w-full relative project
+      flex outline outline-light-pr outline-1
       outline-x-transparent rounded-xl
-      bg-cover overflow-hidden`}
+      bg-cover overflow-hidden bg-center`}
       >
         <div className='w-full h-full absolute top-0 -left-0 hover:-translate-y-full transition-all ease-in-out'>
           <div className='w-full min-h-full relative top-0 left-0 p-4 bg-black bg-opacity-50'>

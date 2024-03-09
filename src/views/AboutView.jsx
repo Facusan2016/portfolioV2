@@ -9,14 +9,14 @@ export const AboutView = () => {
   useGSAP(() => {
     gsap.fromTo('.main-about-text', {
       opacity: 0,
-      y: 200
+      y: 100
     }, {
       opacity: 1,
       y: 0,
       scrollTrigger: {
         trigger: '.about-section',
         start: '40% bottom',
-        end: 'bottom bottom',
+        end: '60% bottom',
         scrub: 1
       }
     })
