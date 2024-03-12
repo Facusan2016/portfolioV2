@@ -34,9 +34,17 @@ export const Project = ({
               {description}
             </p>
             <div className='flex gap-4 w-full items-center justify-center'>
-              <a className='w-8 h-8' href={repoLink}>
-                <img src={github}/>
-              </a>
+              {
+                repoLink
+                  ? (
+                  <a className='w-8 h-8' href={repoLink}>
+                    <img src={github}/>
+                  </a>
+                    )
+                  : (
+                      undefined
+                    )
+              }
               <a className='w-8 h-8' href={webLink}>
                 <img src={website}/>
               </a>

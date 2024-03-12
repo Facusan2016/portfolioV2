@@ -8,14 +8,6 @@ import gsap from 'gsap'
 const pConfig = [
   {
     id: 1,
-    title: 'Lositur',
-    description: 'Lositur was a project that I made for a local store using technologies such as React and NodeJS',
-    webLink: 'https://www.lositur.com.uy',
-    repoLink: 'https://github.com/Facusan2016/Lositur',
-    img: Lositur
-  },
-  {
-    id: 2,
     title: 'Gymlink',
     description: 'Gymlink is an integral tool made for manage a gym as a final project for Holberton School where I developed the project manager and frontend developer roles.',
     webLink: 'https://gymlink.vercel.app/',
@@ -23,11 +15,18 @@ const pConfig = [
     img: Gymlink
   },
   {
+    id: 2,
+    title: 'Lositur',
+    description: 'Lositur was a project that I made for a local store using technologies such as React and NodeJS',
+    webLink: 'https://www.lositur.com.uy',
+    img: Lositur
+  },
+  {
     id: 3,
     title: 'BeanScene',
     description: 'BeanScene is the first project that I made following a figma design, it simulates a virtual store that has a cart, using Redux and ReactJS',
-    webLink: 'https://beanscene.netlify.app/about',
-    repoLink: 'https://beanscene.netlify.app/',
+    webLink: 'https://beanscene.netlify.app/',
+    repoLink: 'https://github.com/Facusan2016/CoffeeShop',
     img: BeanScene
   }
 ]
@@ -42,8 +41,8 @@ export const ProjectsView = () => {
       scrollTrigger: {
         trigger: '.project-section',
         start: '33.3% bottom',
-        end: '120% bottom',
-        scrub: 1
+        end: '100% bottom',
+        scrub: 0.5
       }
     })
   })
