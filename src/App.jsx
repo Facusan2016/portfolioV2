@@ -2,7 +2,8 @@ import {
   WelcomeView,
   AboutView,
   ProjectsView,
-  ContactMe
+  ContactMe,
+  TemporalDesktopAdvice
 } from '../src/views'
 import { NavBar } from './components/ui/NavBar'
 import './App.css'
@@ -12,6 +13,7 @@ const App = () => {
     <>
       <NavBar/>
       <main>
+        <TemporalDesktopAdvice/>
         <WelcomeView/>
         <AboutView/>
         <ProjectsView/>

@@ -4,6 +4,6 @@
 
 @layer base {
   .green-outline{
-    -webkit-text-stroke: 1px #a9db3e72;
+    -webkit-text-stroke: 2px #a9db3e72;
   }
 }

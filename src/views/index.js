@@ -9,6 +9,7 @@ export * from './WelcomeView'
 export * from './AboutView'
 export * from './ProjectsView'
 export * from './ContactMe'
+export * from './TemporalDesktopAdvice'
 
 export const icons = {
   Github,
