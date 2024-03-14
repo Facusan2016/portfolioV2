@@ -3,7 +3,7 @@ import Arrow from '/assets/Arrow.svg'
 
 export const WelcomeView = () => {
   return (
-    <section className="w-svh h-svh flex flex-col items-center justify-start gap-2 pt-40 bg-light-bg_snd">
+    <section id='home' className="w-svh h-svh flex flex-col items-center justify-start gap-2 pt-40 bg-light-bg_snd">
       <h1 className="text-5xl font-thin font-grozen text-light-pr tracking-wider">
           Facundo<br/>
           <span className="font-bold">Sánchez</span>

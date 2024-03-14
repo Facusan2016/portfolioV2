@@ -39,3 +39,9 @@
   font-weight: 300;
   src: local('Neue'), url(/fonts/NeueRegrade/Neue-Regrade-Light.otf) format('opentype');
 }
+
+@font-face {
+  font-family: 'Neue';
+  font-weight: 600;
+  src: local('Neue'), url(/fonts/NeueRegrade/Neue-Regrade-Semibold.otf) format('opentype');
+}

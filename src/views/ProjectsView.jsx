@@ -48,7 +48,7 @@ export const ProjectsView = () => {
   })
 
   return (
-    <section className="project-section w-svh min-h-svh relative overflow-hidden flex flex-col p-5 items-center py-10 justify-evenyl gap-10 bg-light-bg_snd">
+    <section id='projects' className="project-section w-svh min-h-svh relative overflow-hidden flex flex-col p-5 items-center py-10 justify-evenyl gap-10 bg-light-bg_snd">
       <div>
         <h2 className='text-3xl font-grozen p-10 py-0 text-light-pr'>Projects</h2>
       </div>

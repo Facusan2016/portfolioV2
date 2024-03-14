@@ -1,7 +1,8 @@
 import {
   WelcomeView,
   AboutView,
-  ProjectsView
+  ProjectsView,
+  ContactMe
 } from '../src/views'
 import { NavBar } from './components/ui/NavBar'
 import './App.css'
@@ -14,6 +15,7 @@ const App = () => {
         <WelcomeView/>
         <AboutView/>
         <ProjectsView/>
+        <ContactMe/>
       </main>
     </>
   )

@@ -36,10 +36,10 @@ export const NavBar = () => {
         p-7 overflow-hidden transition-all font-neue uppercase text-light-snd
         font-light text-sm`}
       >
-        <li className='navBarLink'><a>Home</a></li>
-        <li className='navBarLink'><a>About</a></li>
-        <li className='navBarLink'><a href='#projectView'>Projects</a></li>
-        <li className='navBarLink'><a>Contact me</a></li>
+        <li onClick={() => setOpenNavbar(false)} className='navBarLink'><a href='#home'>Home</a></li>
+        <li onClick={() => setOpenNavbar(false)} className='navBarLink'><a href='#about-section'>About</a></li>
+        <li onClick={() => setOpenNavbar(false)} className='navBarLink'><a href='#projects'>Projects</a></li>
+        <li onClick={() => setOpenNavbar(false)} className='navBarLink'><a href='#contactme'>Contact me</a></li>
       </ul>
     </nav>
   )

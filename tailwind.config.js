@@ -17,6 +17,9 @@ export default {
           bg: '#111111',
           bg_snd: '#1C1C1C'
         }
+      },
+      flex: {
+        half: '0 0 50%'
       }
     },
     fontFamily: {
