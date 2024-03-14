@@ -7,7 +7,7 @@ export const ContactMe = () => {
       <div className='absolute top-0 left-0 bg-gradient-to-b from-light-bg_snd to-light-bg w-full h-1/2'/>
       <div className='relative z-20 *:h-full flex flex-col gap-16 items-center justify-center pt-8'>
         <h2 className='font-neue text-3xl text-light-snd font-semibold'>Let&apos;s get in touch!</h2>
-        <ul className='grid grid-cols-2 gap-10'>
+        <ul className='grid grid-cols-2 gap-10 max-h-[10rem]'>
           <li className='active:scale-95 transition-transform'>
             <a href='https://github.com/Facusan2016'>
               <img src={icons.Github}/>
