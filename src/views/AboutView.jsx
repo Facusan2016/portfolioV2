@@ -45,8 +45,8 @@ export const AboutView = () => {
   })
 
   return (
-    <section id='about-section' className="about-section w-svh min-h-svh p-10 relative overflow-hidden flex flex-col items-center justify-center gap-2 bg-light-pr">
-      <p className="text-[8rem] font-bold about-bg-text
+    <section id='about-section' className="about-section w-svw min-h-screen p-10 relative overflow-hidden flex flex-col items-center justify-center gap-2 bg-light-pr">
+      <p className="text-[8rem] font-neue font-bold about-bg-text
        text-transparent green-outline
        break-all leading-[7rem] uppercase absolute top-0"
       >

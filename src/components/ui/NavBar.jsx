@@ -23,7 +23,7 @@ export const NavBar = () => {
   return (
     <nav className={
       `${openNavbar ? 'border-opacity-100 shadow-light-pr' : undefined}
-      w-full h-fit fixed top-0 z-50  py-3 px-4 bg-light-bg_snd border
+      w-full max-h-fit fixed top-0 z-50  py-3 px-4 bg-light-bg_snd border
       border-light-pr border-opacity-0 shadow-xl transition-all`}
     >
       <button onClick={() => setOpenNavbar(!openNavbar)} className='relative w-5 h-6'>

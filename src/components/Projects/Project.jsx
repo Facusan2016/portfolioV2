@@ -14,13 +14,13 @@ export const Project = ({
     <article
       style={
         {
-          backgroundImage: `url(${img})`
+          backgroundImage: `url(${img})`,
+          WebkitBorderRadius: '12px'
         }
       }
       className={
       `w-full relative project
-      flex outline outline-light-pr outline-1
-      outline-x-transparent rounded-xl
+      flex border border-light-pr border-1 rounded-xl
       bg-cover overflow-hidden bg-center`}
       >
         <div className='w-full h-full absolute top-0 -left-0 hover:-translate-y-full transition-all ease-in-out'>
