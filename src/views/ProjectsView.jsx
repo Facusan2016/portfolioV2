@@ -1,7 +1,7 @@
 import { Project } from '../components/Projects/Project'
-import Lositur from './ProjectsImages/Lositur.png'
-import Gymlink from './ProjectsImages/Gymlink.jpg'
-import BeanScene from './ProjectsImages/BeanScene.png'
+import Lositur from './assets/ProjectsImages/Lositur.png'
+import Gymlink from './assets/ProjectsImages/Gymlink.jpg'
+import BeanScene from './assets/ProjectsImages/BeanScene.png'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
@@ -48,15 +48,17 @@ export const ProjectsView = () => {
   })
 
   return (
-    <section id='projects' className="project-section w-svh min-h-svh relative overflow-hidden flex flex-col p-5 items-center py-10 justify-evenyl gap-10 bg-light-bg_snd">
+    <section id='projects' className="project-section md:justify-evenly md:gap-4 w-svh min-h-svh relative overflow-hidden flex flex-col p-5 items-center py-10 gap-10 bg-light-bg_snd">
       <div>
-        <h2 className='text-3xl font-grozen p-10 py-0 text-light-pr'>Projects</h2>
+        <h2 className='text-3xl md:text-5xl font-grozen p-10 py-0 text-light-pr'>Projects</h2>
       </div>
-      {
-        pConfig.map((project) =>
-          <Project key={project.id} {...project}/>
-        )
-      }
+      <article className='w-full md:max-w-7xl flex items-center justify-center gap-8 flex-col md:flex-row'>
+        {
+          pConfig.map((project) =>
+            <Project key={project.id} {...project}/>
+          )
+        }
+      </article>
     </section>
   )
 }

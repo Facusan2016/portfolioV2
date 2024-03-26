@@ -7,7 +7,7 @@ export const Project = ({
   description,
   webLink,
   repoLink,
-  img
+  img,
 
 }) => {
   return (
@@ -19,9 +19,9 @@ export const Project = ({
         }
       }
       className={
-      `w-full relative project
+      `w-full relative project h-full
       flex border border-light-pr border-1 rounded-xl
-      bg-cover overflow-hidden bg-center`}
+      bg-cover overflow-hidden bg-center md:max-w-2xl md:!min-h-[20rem]`}
       >
         <div className='w-full h-full absolute top-0 -left-0 hover:-translate-y-full transition-all ease-in-out'>
           <div className='w-full min-h-full relative top-0 left-0 p-4 bg-black bg-opacity-50'>
@@ -30,14 +30,14 @@ export const Project = ({
             </h2>
           </div>
           <div className='w-full h-full p-4 flex flex-col items-center justify-around bg-black bg-opacity-50'>
-            <p className='font-neue text-center text-sm font-light text-light-snd'>
+            <p className='font-neue text-center text-sm md:text-xl font-light text-light-snd'>
               {description}
             </p>
             <div className='flex gap-4 w-full items-center justify-center'>
               {
                 repoLink
                   ? (
-                  <a className='w-8 h-8' href={repoLink}>
+                  <a className='w-8 h-8 md:w-12 md:h-12' href={repoLink}>
                     <img src={github}/>
                   </a>
                     )
@@ -45,7 +45,7 @@ export const Project = ({
                       undefined
                     )
               }
-              <a className='w-8 h-8' href={webLink}>
+              <a className='w-8 h-8 md:w-12 md:h-12' href={webLink}>
                 <img src={website}/>
               </a>
             </div>
