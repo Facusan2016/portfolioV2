@@ -14,7 +14,7 @@ export const WelcomeView = () => {
           <h2 className='font-neue font-normal text-light-snd uppercase'>Software Engineer</h2>
           <h3 className='font-neue text-xs uppercase font-light text-light-snd'>Welcome to my portfolio/2024</h3>
         </article>
-        <img className='w-[25vw] min-w-[15rem] rounded-full' src={FacundoImg}/>
+        <img className='w-[25vw] min-w-[15rem] rounded-full' alt='Facundo image' src={FacundoImg}/>
       </div>
       <video
         className="w-full absolute bottom-0 left-0 h-1/2 object-cover mt-auto"
@@ -24,7 +24,7 @@ export const WelcomeView = () => {
       >
         <source src={video} type="video/mp4"/>
       </video>
-      <img src={Arrow} className='w-10 h-10 absolute bottom-[12%] animate-bounce'/>
+      <img alt='down-arrow' src={Arrow} className='w-10 h-10 absolute bottom-[12%] animate-bounce'/>
     </section>
   )
 }

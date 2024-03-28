@@ -69,14 +69,14 @@ export const AboutView = () => {
           develop my soft skills, and work in multidisciplinary groups.
         </p>
         <div className='hidden md:grid grid-cols-2 grid-rows-4 gap-14 [grid-template-columns: repeat(3, 1fr)]'>
-          <img className='w-[12vh] max-w-32' src={techIcons.React}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Redux}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Python}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Node}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Js}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Html}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Css}/>
-          <img className='w-[12vh] max-w-32' src={techIcons.Postgres}/>
+          <img alt='React' className='w-[12vh] max-w-32' src={techIcons.React}/>
+          <img alt='Redux' className='w-[12vh] max-w-32' src={techIcons.Redux}/>
+          <img alt='Python' className='w-[12vh] max-w-32' src={techIcons.Python}/>
+          <img alt='Node' className='w-[12vh] max-w-32' src={techIcons.Node}/>
+          <img alt='Javascript' className='w-[12vh] max-w-32' src={techIcons.Js}/>
+          <img alt='Html' className='w-[12vh] max-w-32' src={techIcons.Html}/>
+          <img alt='Css' className='w-[12vh] max-w-32' src={techIcons.Css}/>
+          <img alt='Postgres' className='w-[12vh] max-w-32' src={techIcons.Postgres}/>
         </div>
       </div>
     </section>

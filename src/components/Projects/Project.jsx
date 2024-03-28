@@ -38,7 +38,7 @@ export const Project = ({
                 repoLink
                   ? (
                   <a className='w-8 h-8 md:w-12 md:h-12' href={repoLink}>
-                    <img src={github}/>
+                    <img alt='github' src={github}/>
                   </a>
                     )
                   : (
@@ -46,7 +46,7 @@ export const Project = ({
                     )
               }
               <a className='w-8 h-8 md:w-12 md:h-12' href={webLink}>
-                <img src={website}/>
+                <img alt='website' src={website}/>
               </a>
             </div>
           </div>
