@@ -66,7 +66,9 @@ export const AboutView = () => {
           that provide a <b>unique user experience.</b> With a keen eye for detail and a
           strong interest in the IT world, I have been part of projects that have
           given me the <b>necessary knowledge to create applications from scratch</b>,
-          develop my soft skills, and work in multidisciplinary groups.
+          develop my soft skills, and work in multidisciplinary groups. <b/>
+          I&apos;m currently using <b>ReactJS</b> as the primary technology in my projects
+          but I also possess expertise in backend technologies like <b> Node.js, Express, and PostgreSQL.</b>
         </p>
         <div className='hidden md:grid grid-cols-2 grid-rows-4 gap-14 [grid-template-columns: repeat(3, 1fr)]'>
           <img alt='React' className='w-[12vh] max-w-32' src={techIcons.React}/>

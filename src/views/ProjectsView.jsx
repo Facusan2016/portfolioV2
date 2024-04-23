@@ -9,7 +9,7 @@ const pConfig = [
   {
     id: 1,
     title: 'Gymlink',
-    description: 'Gymlink is an integral tool made for manage a gym as a final project for Holberton School where I developed the project manager and frontend developer roles.',
+    description: 'Gymlink is an integral tool created to manage a gym, serving as my final project for Holberton School. Throughout the development process, I took on the roles of project manager and frontend developer.',
     webLink: 'https://gymlink.vercel.app/',
     repoLink: 'https://github.com/HolbertonFinalProjectFG/gymlink_frontend',
     img: Gymlink
@@ -17,14 +17,14 @@ const pConfig = [
   {
     id: 2,
     title: 'Lositur',
-    description: 'Lositur was a project that I made for a local store using technologies such as React and NodeJS',
+    description: 'Lositur is a full-stack project that I created for a local store, utilizing React and Node.js.',
     webLink: 'https://www.lositur.com.uy',
     img: Lositur
   },
   {
     id: 3,
     title: 'BeanScene',
-    description: 'BeanScene is the first project that I made following a figma design, it simulates a virtual store that has a cart, using Redux and ReactJS',
+    description: 'BeanScene is the first project I developed based on a Figma design. It simulates a virtual store featuring a cart functionality, built with Redux and ReactJS.',
     webLink: 'https://beanscene.netlify.app/',
     repoLink: 'https://github.com/Facusan2016/CoffeeShop',
     img: BeanScene
