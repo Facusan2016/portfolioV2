@@ -30,7 +30,7 @@ export const Project = ({
             </h2>
           </div>
           <div className='w-full h-full p-4 flex flex-col items-center justify-around bg-black bg-opacity-50'>
-            <p className='font-neue text-center text-sm md:text-xl font-light text-light-snd'>
+            <p className='font-neue text-center text-sm md:text-xl font-regular text-light-snd'>
               {description}
             </p>
             <div className='flex gap-4 w-full items-center justify-center'>
