@@ -7,7 +7,7 @@ export const Project = ({
   description,
   webLink,
   repoLink,
-  img,
+  img
 
 }) => {
   return (
@@ -37,7 +37,7 @@ export const Project = ({
               {
                 repoLink
                   ? (
-                  <a className='w-8 h-8 md:w-12 md:h-12' href={repoLink}>
+                  <a className='w-8 h-8 md:w-12 md:h-12' rel="noopener noreferrer" target='_blank' href={repoLink}>
                     <img alt='github' src={github}/>
                   </a>
                     )
@@ -45,7 +45,7 @@ export const Project = ({
                       undefined
                     )
               }
-              <a className='w-8 h-8 md:w-12 md:h-12' href={webLink}>
+              <a className='w-8 h-8 md:w-12 md:h-12' rel="noopener noreferrer" target='_blank' href={webLink}>
                 <img alt='website' src={website}/>
               </a>
             </div>
